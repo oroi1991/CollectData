@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectDataModbus", "CollectDataModbus.csproj", "{5D1B3FD3-D7DA-4633-B441-4A869EACC0CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncusCommon", "..\..\SyncusCommon\SyncusCommon.csproj", "{819E3527-32CF-4F90-AAED-EFE412432527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D1B3FD3-D7DA-4633-B441-4A869EACC0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D1B3FD3-D7DA-4633-B441-4A869EACC0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D1B3FD3-D7DA-4633-B441-4A869EACC0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D1B3FD3-D7DA-4633-B441-4A869EACC0CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{819E3527-32CF-4F90-AAED-EFE412432527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819E3527-32CF-4F90-AAED-EFE412432527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819E3527-32CF-4F90-AAED-EFE412432527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819E3527-32CF-4F90-AAED-EFE412432527}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C542D85-AEE1-4A71-B7EC-F820EC9048FD}
+	EndGlobalSection
+EndGlobal
